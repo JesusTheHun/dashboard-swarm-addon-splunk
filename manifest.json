@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Dashboard Swarm Addon - Splunk",
+    "description": "Add Splunk support to Dashboard Swarm",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "run_at": "document_idle",
+        "matches": ["*://*/*"],
+        "include_globs": ["*"],
+        "js": ["contentScript.js"]
+    }],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "http://*/",
+        "https://*/"
+    ]
+}
