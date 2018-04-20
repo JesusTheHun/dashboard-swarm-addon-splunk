@@ -13,9 +13,11 @@ if (body.hasAttribute('data-splunk-version')) {
                     if (node.classList) {
                         if (node.classList.contains('dashboard')) {
                             obs.disconnect();
-                            chrome.runtime.sendMessage('lnhgcigfhoigkiileejnpjmegaojofmn', {
-                                action: 'tabReady'
-                            });
+                            setTimeout(() => {
+                                chrome.runtime.sendMessage('lnhgcigfhoigkiileejnpjmegaojofmn', {
+                                    action: 'tabReady'
+                                });
+                            }, 1000);
                         }
                     }
                 });
