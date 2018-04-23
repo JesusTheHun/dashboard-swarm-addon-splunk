@@ -6,6 +6,10 @@ It adds enhancement to the support of Splunk dashboards. So zoom & scroll are co
 
 Please fork this repo and edit the `contentScript.js` to create your own add-on.
 
+# Available on the Chrome Store
+
+Visit https://chrome.google.com/webstore/detail/lfeahkedgfgkgeaofdmkmjebpkmkejpa
+
 # How it works
 
 The add-on works in 3 steps :
