@@ -10,9 +10,6 @@
         "js": ["contentScript.js"]
     }],
     "permissions": [
-        "activeTab",
-        "tabs",
-        "storage",
         "http://*/",
         "https://*/"
     ]
