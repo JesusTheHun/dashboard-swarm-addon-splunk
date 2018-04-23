@@ -2,7 +2,7 @@
 
 This is an add-on up to this chrome extension https://github.com/JesusTheHun/dashboard-swarm
 
-It adds enhancement to the support of Splunk dashboards.
+It adds enhancement to the support of Splunk dashboards. So zoom & scroll are correctly applied once page is loaded.
 
 Please fork this repo and edit the `contentScript.js` to create your own add-on.
 
